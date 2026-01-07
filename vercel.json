@@ -1,0 +1,10 @@
+{
+  "buildCommand": "npm --prefix client run build",
+  "outputDirectory": "client/dist",
+  "routes": [
+    {
+      "src": "^/(?!api/).*",
+      "dest": "/index.html"
+    }
+  ]
+}
